@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>trips</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p><b>Trips</b></p>
+  <p>No upcoming trips</p>
+  <ion-button (click)="navToExplore()">Explore Airbnb</ion-button>
+  <p>Current Trip:</p>
+  <ion-chip (click)="navToRentalDetails()">
+    <ion-avatar>
+      <img src="https://r7h9p6s7.stackpathcdn.com/wp-content/uploads/2011/11/qqqqqqqqqqq.jpg">
+    </ion-avatar>
+    <ion-label>Capetown</ion-label>
+  </ion-chip>
+</ion-content>
